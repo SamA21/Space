@@ -1,5 +1,7 @@
 # Space1 Test
 
+To run cd into the space-1 directory, then run npm install, npm start. 
+
 ## Notes:
 
 1. used Tailwind for CSS
