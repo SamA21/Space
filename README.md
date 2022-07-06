@@ -8,4 +8,4 @@
 * An item page (that would show more details).
 * Update parsing of data to be a fake API call. 
 * A Reverse order/ default order toggle buttons. 
-* Split components out more into re-useable ones like the view all button. 
+* Split out more components into more re-useable ones such as turing the view all button into a more genric button component. 
