@@ -16,10 +16,6 @@ interface shopItems{
 
 
 class Item extends React.Component<IProps,IState> {
-    constructor(props: IProps) {
-        super(props);
-    }
-
     convertToPounds(pence:number){
         return pence/10.0;
     }

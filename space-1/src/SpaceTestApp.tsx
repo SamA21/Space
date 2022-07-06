@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './SpaceTestApp.css';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';

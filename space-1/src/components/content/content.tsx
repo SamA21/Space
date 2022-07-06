@@ -1,4 +1,4 @@
-import React,  { useEffect, useState } from 'react';
+import React from 'react';
 import Item from './items/item';
 
 
@@ -76,12 +76,12 @@ class  Content extends React.Component<IProps,IState> {
                 ) : (
                     <article>
                         <h1 className="text-3xl">Space Items:</h1>
-                        <ul className="flex flex-wrap gap-6 justify-center mt-5">
+                        <ul className="flex flex-wrap justify-center gap-6 mt-5">
                             {this.state.data.map((items: shopItems) => (
                                 <Item currentItem={items} />
                             ))}
                         </ul>
-                        <button className="rounded-full my-5 bg-cyan-500 text-white w-32 p-5 border-cyan-500 hover:bg-cyan-600 active:bg-cyan-800" onClick={() => this.showItemsToggle()}>
+                        <button className="w-32 p-5 my-5 text-white rounded-full bg-cyan-500 border-cyan-500 hover:bg-cyan-600 active:bg-cyan-800" onClick={() => this.showItemsToggle()}>
                             {this.state.toggle?  (<span>View All</span>) : (<span>Collapse</span>)}
                             </button>                   
                     </article>
