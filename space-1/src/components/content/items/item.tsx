@@ -26,8 +26,9 @@ class Item extends React.Component<IProps,IState> {
 
     render(){
         return (        
-            <li>
-                {this.props.currentItem.name} - £{this.convertToPounds(this.props.currentItem.price).toFixed(2)}
+            <li className="h-[20rem] w-[15rem] border border-2 border-black rounded-lg flex flex-col justify-between">
+                <span className="mt-5">{this.props.currentItem.name}</span>
+                <span className="mb-5">£{this.convertToPounds(this.props.currentItem.price).toFixed(2)}</span>
             </li>
         );
     }
