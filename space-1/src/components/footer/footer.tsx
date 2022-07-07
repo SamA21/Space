@@ -1,10 +1,6 @@
 import React from 'react';
-interface IProps{
-}
 
-interface IState {
-}
-class Footer extends React.Component<IProps,IState> {
+class Footer extends React.Component {
     render(){
         return (
             <footer>

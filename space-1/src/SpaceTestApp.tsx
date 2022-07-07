@@ -4,13 +4,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Content from './components/content/content';
 
-interface IProps{
-}
-
-interface IState {
-}
-
-class SpaceTestApp extends React.Component<IProps,IState> {
+class SpaceTestApp extends React.Component {
   render(){
     return (
       <div className="App">
